@@ -7,7 +7,7 @@ import re
 
 app = Flask(__name__)
 app.debug = True
-app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://root:sree@MSUS2020@localhost:3306/genesys'
+app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://<username>:<password>@<domain>:<port>/<db>'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
