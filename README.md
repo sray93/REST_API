@@ -19,9 +19,9 @@ For linux: <br>
 The flask inbuilt server runs on localhost. <br>
 
 APIs endpoints provided: <br>
-1. http://127.0.0.1:5000/listusers  : Get list of all users <br>
-2. http://127.0.0.1:5000/createuser : Create new user <br>
-3. http://127.0.0.1:5000/updateuser/<email> : Update user <br>
-4. http://127.0.0.1:5000/deleteuser/<email> : Delete user <br>
-5. http://127.0.0.1:5000/userlogin/<email> : Login endpoint <br>
+1. GET: /listusers  : Get list of all users <br>
+2. POST: /createuser : Create new user <br>
+3. PUT: updateuser/<email> : Update user <br>
+4. DELETE:  /deleteuser/<email> : Delete user <br>
+5. POST: userlogin/<email> : Login endpoint <br>
 
